@@ -30,7 +30,7 @@ html, body {
 /*============= NAVIGATION =============*/
 .navbar-brand  {
    height: 1.5rem;
-    color: #1EBBA3;
+    color: #1EBBA3 !important;
     font-weight: bolder;
 }
 
