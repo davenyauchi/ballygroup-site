@@ -105,8 +105,8 @@ button, a, a.btn,
    transform: translateZ(0);
    will-change: transform;
    display: table;
-   animation: imageSlider 36s infinite; /* 3 images × 4s each */
-  -webkit-animation: imageSlider 24s infinite;
+   animation: imageSlider 60s infinite; /* 3 images × 4s each */
+  -webkit-animation: imageSlider 60s infinite;
 }
 @keyframes imageSlider {
   0% {
