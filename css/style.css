@@ -108,16 +108,16 @@ button, a, a.btn,
 }
 @keyframes imageSlider {
   0% {
-    background-image: url('../img/computers.jpg');
+    background-image: url('../img/Building.jpg');
   }
   33% {
-    background-image: url('../img/Building.jpg');
+    background-image: url('../img/computers.jpg');
   }
   66% {
     background-image: url('../img/people.jpg');
   }
   100% {
-    background-image: url('../img/computers.jpg');
+    background-image: url('../img/Building.jpg');
   }
 }
 
