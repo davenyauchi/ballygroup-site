@@ -112,10 +112,8 @@ button, a, a.btn,
   0% {
     background-image: url('../img/upsidedownbuilding.jpg');
   }
-  33% {
-    background-image: url('../img/computers.jpg');
-  }
-  66% {
+  
+  50% {
     background-image: url('../img/people.jpg');
   }
   100% {
