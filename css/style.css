@@ -95,7 +95,7 @@ button, a, a.btn,
    left: 0;
 }
 .home-inner {
-   background-image: url('../img/computers.jpg');
+  
    position: fixed;
    height: 100%;
    width: 100%;
@@ -105,6 +105,20 @@ button, a, a.btn,
    transform: translateZ(0);
    will-change: transform;
    display: table;
+}
+@keyframes imageSlider {
+  0% {
+    background-image: url('../img/computers.jpg');
+  }
+  33% {
+    background-image: url('../img/Building.jpg');
+  }
+  66% {
+    background-image: url('../img/people.jpg');
+  }
+  100% {
+    background-image: url('../img/computers.jpg');
+  }
 }
 
 /*-- Landing Page Caption --*/
